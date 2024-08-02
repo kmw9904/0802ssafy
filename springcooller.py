@@ -6,7 +6,7 @@ for tc in range(1, T + 1):
 
     di = [0, -1, 0, 1]
     dj = [-1, 0, 1, 0]
-    mx_result = 0
+    mx_result = -99999999
 
     for i in range(N):
         for j in range(N):
