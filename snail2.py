@@ -13,7 +13,6 @@ for tc in range(1, T + 1):
 
     while count != N ** 2:
         D = (k % 4)
-
         ni = ci + di[D]
         nj = cj + dj[D]
         count += 1
@@ -34,7 +33,6 @@ s
             continue
 
         ci, cj = ni, nj
-        arr[ci][cj] = count
         # ci, cj = ni, nj
 
     print(arr)
